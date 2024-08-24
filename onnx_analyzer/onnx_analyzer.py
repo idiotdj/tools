@@ -1,5 +1,4 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
+#!/usr/bin/python3
 
 import sys
 import os
@@ -66,7 +65,7 @@ if __name__ == "__main__":
     
     onnx_model_path = sys.argv[1]
 
-    # onnx_model_path = "./resnet50.onnx"
+    # onnx_model_path = "./resnet18.onnx"
     
     # 调用函数打印模型的操作和参数
     print_model_ops_and_params(onnx_model_path)

@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 import torch
 import torchvision.models as models
 import onnx
